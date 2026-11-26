@@ -42,6 +42,29 @@
                 <option value="Puerto Escondido">Puerto Escondido</option>
             </select>
         </div>
+        <h3>B. Actividades turísticas</h3>
+        <div class="campo">
+            <label><input type="checkbox" name="actividades[]" value="Buceo"> Buceo</label><br>
+            <label><input type="checkbox" name="actividades[]" value="Paseo en lancha"> Paseo en lancha</label><br>
+            <label><input type="checkbox" name="actividades[]" value="Visita a zonas arqueológicas"> Visita a zonas arqueológicas</label><br>
+            <label><input type="checkbox" name="actividades[]" value="Senderismo"> Senderismo</label><br>
+            <label><input type="checkbox" name="actividades[]" value="Pesca deportiva"> Pesca deportiva</label><br>
+            <label><input type="checkbox" name="actividades[]" value="Recorrido gastronómico"> Recorrido gastronómico</label><br>
+            <label><input type="checkbox" name="actividades[]" value="Visita a museos"> Visita a museos</label>
+        </div>
 
+        <h3>C. Servicios adicionales</h3>
+        <div class="campo">
+            <label><input type="checkbox" name="servicios[]" value="Transporte al aeropuerto"> Transporte al aeropuerto</label><br>
+            <label><input type="checkbox" name="servicios[]" value="Desayuno incluido"> Desayuno incluido</label><br>
+            <label><input type="checkbox" name="servicios[]" value="Hospedaje de lujo"> Hospedaje de lujo</label><br>
+            <label><input type="checkbox" name="servicios[]" value="Seguro de viajero"> Seguro de viajero</label><br>
+            <label><input type="checkbox" name="servicios[]" value="Renta de automóvil"> Renta de automóvil</label><br>
+            <label><input type="checkbox" name="servicios[]" value="Guía turístico"> Guía turístico</label>
+        </div>
+
+        <button type="submit">Generar paquete</button>
+    </form>
+</div>
 </body>
 </html>
